@@ -16,3 +16,7 @@ dataLayer.push({
        ]
   }
 });
+
+
+Riferimenti eventi:
+https://developers.google.com/analytics/devguides/collection/ga4/reference/events?hl=it&client_type=gtm#purchase
