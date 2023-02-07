@@ -1,1 +1,18 @@
-
+dataLayer.push({ ecommerce: null });  // Clear the previous ecommerce object.
+dataLayer.push({
+  event: "purchase",
+  ecommerce: {
+      transaction_id: "T_12345",
+      value: 25.42,
+      tax: 4.90,
+      shipping: 5.99,
+      currency: "USD",
+      items: [
+       {
+        item_name: "Successivi depositi",
+        price: 9.99,
+        quantity: 1
+      },
+       ]
+  }
+});
